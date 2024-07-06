@@ -1,0 +1,377 @@
+/* ----------------------
+GOOGLE FONTS 
+---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* ----------------------
+GLOBAL SETTINGS 
+---------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 13px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* ----------------------
+HEADER 
+---------------------- */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 8px 28px 2px rgba(61, 61, 61, .12);
+    z-index: 99;
+}
+
+.nav-link,
+.dropdown-item {
+    color: #0E72CC;
+    font-size: 17px;
+    font-weight: 500;
+    transition-duration: .4s;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus,
+.navbar-nav .nav-link.show {
+    color: #00AEEF;
+}
+
+
+
+.dropdown-item:hover {
+    color: #ffffff;
+    background-color: #0E72CC;
+}
+
+.menu-button {
+    background-color: #0e72cc;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 0;
+    margin-left: 10px;
+    transition-duration: .4s;
+}
+
+.menu-button:hover {
+    background-color: #00AEEF;
+    color: #ffffff;
+}
+
+
+/* ----------------------
+HOME SECTION 
+---------------------- */
+#home {
+    height: 80vh;
+}
+
+#home .content h2,
+#projects .content h2,
+#earn .content h2,
+.support-content h2,
+.privilege-content h2 {
+    color: #0e72cc;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+#home .content p,
+#projects .content p,
+#earn .content p,
+.support-content p,
+.privilege-content p {
+    color: #0e72cc;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 20px 0;
+}
+
+#home .content .intro-btn,
+#projects .content .intro-btn,
+#earn .content .intro-btn,
+.support-content .intro-btn,
+.privilege-content .intro-btn {
+    background-color: #0e72cc;
+    color: #ffffff;
+    transition-duration: .4s;
+}
+
+#home .content .intro-btn:hover,
+#projects .content .intro-btn:hover,
+#earn .content .intro-btn:hover,
+.support-content .intro-btn:hover,
+.privilege-content .intro-btn:hover {
+    background-color: #00AEEF;
+}
+
+
+/* ----------------------
+ABOUT SECTION 
+---------------------- */
+#about .about-item {
+    padding: 20px 15px 10px;
+    border-radius: 8px;
+    background-color: #f9799a;
+}
+
+#about .about-item.item-2 {
+    background-color: #61c4d8;
+}
+
+#about .about-item.item-3 {
+    background-color: #0e72cc;
+}
+
+#about .about-item .content h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#about .about-item .content p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #ffffff;
+}
+
+#about .about-item .icon i {
+    font-size: 35px;
+    padding-right: 15px;
+    color: #ffffff;
+}
+
+
+/* ----------------------
+PROJECTS SECTION 
+---------------------- */
+#projects .content .title,
+#earn .content .title,
+#support .support-content .title,
+#privilege .privilege-content .title {
+    color: #171f3c;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#projects .content h2,
+#earn .content h2,
+#support .support-content h2,
+#privilege .privilege-content h2 {
+    color: #07324f;
+}
+
+#projects .content p,
+#earn .content p,
+#support .support-content p,
+#privilege .privilege-content p {
+    color: #526375;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ----------------------
+SERVICES SECTION 
+---------------------- */
+#support,
+#privilege {
+    padding: 85px 0;
+    background-color: #f5f7fa;
+}
+
+.support-content p,
+.privilege-content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ----------------------
+EARN SECTION 
+---------------------- */
+#earn {
+    background-color: #fafafa;
+}
+
+
+/* ----------------------
+PRIVILEGE SECTION 
+---------------------- */
+
+
+/* ----------------------
+NEWS LETTER SECTION 
+---------------------- */
+#news-letter {
+    margin-top: 80px;
+}
+
+.news-letter-inner {
+    margin-bottom: 60px;
+    padding: 100px 60px 80px;
+    box-shadow: 0 8px 28px 2px rgba(61, 61, 61, .12);
+    background-color: #0e72cc;
+    border-radius: 8px;
+}
+
+.news-letter-inner h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.news-letter-inner p {
+    color: #ffffff;
+}
+
+
+/* ----------------------
+FOOTER 
+---------------------- */
+.footer-card h5 {
+    color: #0e72cc;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-card p {
+    color: #91a3bb;
+    line-height: 1.9;
+}
+
+.footer-card ul li a {
+    color: #91a3bb;
+    line-height: 28px;
+    transition-duration: .4s;
+}
+
+.footer-card ul li a:hover {
+    color: #0e72cc;
+    padding-left: 5px;
+}
+
+.footer-bottom .copyright-text p {
+    color: #0e72cca1;
+    font-size: 14px;
+}
+
+
+/* ----------------------
+SIGN UP & SIGN IN 
+---------------------- */
+#sign-in,
+#sign-up{
+    padding: 120px 0;
+}
+
+.form-header {
+    padding-top: 25px;
+}
+
+.form-header h2 {
+    color: #0e72cc;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.35em;
+    margin: 0;
+}
+
+.form-header p {
+    color: #9b9b9b;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 30px;
+    line-height: 1.8em;
+}
+
+form .form-group {
+    margin-bottom: 1.2rem;
+}
+
+form input:focus {
+    border-color: #0e72cc !important;
+    outline: 0;
+    box-shadow: 0 0 0 0 #0e72cc !important;
+}
+
+form input::placeholder {
+    color: #9b9b9b !important;
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    padding: .375rem 1.25rem;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 2px solid #ced4da !important;
+    border-radius: 0 !important;
+}
+
+.form-btn {
+    padding: 11px 50px;
+    background-color: #0e72cc;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 18px;
+    transition-duration: .3s;
+}
+
+.form-btn:hover{
+    background-color: #00AEEF;
+    color: #ffffff;
+}
+
+.extra-info {
+    margin-top: 30px;   
+}
+
+.extra-info ul {
+    padding: 0;
+    margin: 0;
+}
+
+.extra-info ul li a {
+    text-transform: capitalize;
+    color: #0e72cc;
+    font-size: 16px;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+
+.extra-info ul li a:hover{
+    color: #E94524;
+}
